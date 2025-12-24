@@ -32,7 +32,7 @@ const upload = multer({ storage });
 
 /* ================== MIDDLEWARE ================== */
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "*",
   credentials: true
 }));
 
